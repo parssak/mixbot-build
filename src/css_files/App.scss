@@ -1,12 +1,9 @@
-@import "Fonts.css";
+@import "Fonts.scss";
 :root {
     --accent-color: tomato;
 }
 
-@import "Listbox.css";
-/* @import 'Deck.css'; */
-
-@import "Waveform.css";
+@import "Waveform.scss";
 
 * {
     color: white;

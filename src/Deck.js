@@ -95,7 +95,8 @@ export default class Deck extends Component {
         if (this.waveform.getVolume() < this.props.recommendedVolume &&
             !this.fadingIn &&
             !this.fadingOut) {
-            this.waveform.setVolume(this.props.recommendedVolume);
+                // do nothing
+                // this.waveform.setVolume(this.props.recommendedVolume);
         }
         
         if (this.props.thisSong !== prevProps.thisSong) { 
